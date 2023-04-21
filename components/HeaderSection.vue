@@ -10,13 +10,15 @@
             </div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
               <div class="offcanvas-header d-lg-none">
-                <h3 class="text-white fs-30 mb-0">MASPLE</h3>
+				<nuxt-link to="/">
+                	<h3 class="text-white fs-30 mb-0">MASPLE</h3>
+				</nuxt-link>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-					<nuxt-link class="nav-link" to="#">About</nuxt-link>
+					<nuxt-link class="nav-link" to="#about">About</nuxt-link>
 				  </li>
                   <li class="nav-item">
 					<nuxt-link class="nav-link" to="#">Skills</nuxt-link>
@@ -26,7 +28,7 @@
 				  </li>
                 </ul>
                 <!-- /.navbar-nav -->
-                <div class="offcanvas-footer d-lg-none">
+                <div class="offcanvas-footer d-lg-none mt-5">
                   <div>
                     <a href="mailto:m.rafli.ramadani@gmail.com" class="link-inverse">m.rafli.ramadani@gmail.com</a>
                     <br>

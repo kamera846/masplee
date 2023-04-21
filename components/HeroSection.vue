@@ -1,5 +1,5 @@
 <template>
-    <section class="wrapper bg-gray">
+    <section id="about" class="wrapper bg-gray">
       <div class="container pt-12 pt-md-14 pb-14 pb-md-16">
         <div class="row gy-10 gy-md-13 gy-lg-0 align-items-center">
           <div class="col-md-8 col-lg-5 d-flex position-relative mx-auto" data-cues="slideInDown" data-group="header" data-disabled="true">
