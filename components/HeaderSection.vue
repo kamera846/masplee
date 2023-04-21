@@ -4,9 +4,9 @@
         <div class="container">
           <div class="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center">
             <div class="navbar-brand w-100">
-              <a href="/">
+              <nuxt-link to="/">
                 <h3 class="text-dark fs-30 mb-0">MASPLE</h3>
-              </a>
+              </nuxt-link>
             </div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
               <div class="offcanvas-header d-lg-none">
@@ -15,27 +15,28 @@
               </div>
               <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                 <ul class="navbar-nav">
-                  <li class="nav-item py-5 px-5">
-					<a class="nav-link hover-2 p-0" href="#">About</a>
+                  <li class="nav-item">
+					<nuxt-link class="nav-link" to="#">About</nuxt-link>
 				  </li>
-                  <li class="nav-item py-5 px-5">
-					<a class="nav-link hover-2 p-0" href="#">Skills</a>
+                  <li class="nav-item">
+					<nuxt-link class="nav-link" to="#">Skills</nuxt-link>
 				  </li>
-                  <li class="nav-item py-5 px-5">
-					<a class="nav-link hover-2 p-0" href="#">Portfolio</a>
+                  <li class="nav-item">
+					<nuxt-link class="nav-link" to="#">Portfolio</nuxt-link>
 				  </li>
                 </ul>
                 <!-- /.navbar-nav -->
                 <div class="offcanvas-footer d-lg-none">
                   <div>
-                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                    <br> 00 (123) 456 78 90 <br>
+                    <a href="mailto:m.rafli.ramadani@gmail.com" class="link-inverse">m.rafli.ramadani@gmail.com</a>
+                    <br>
+					<a href="tel:+62895636998639" class="link-inverse">0895636998639</a>
+					<br>
                     <nav class="nav social social-white mt-4">
                       <a href="#"><i class="uil uil-twitter"></i></a>
                       <a href="#"><i class="uil uil-facebook-f"></i></a>
                       <a href="#"><i class="uil uil-dribbble"></i></a>
                       <a href="#"><i class="uil uil-instagram"></i></a>
-                      <a href="#"><i class="uil uil-youtube"></i></a>
                     </nav>
                     <!-- /.social -->
                   </div>

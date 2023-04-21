@@ -8,7 +8,6 @@
                     <a href="#"><i class="uil uil-facebook-f"></i></a>
                     <a href="#"><i class="uil uil-dribbble"></i></a>
                     <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
                 </nav>
             </div>
         </div>
