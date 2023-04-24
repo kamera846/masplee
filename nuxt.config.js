@@ -1,15 +1,15 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Mochammad Rafli Ramadani',
+    // title: 'Mochammad Rafli Ramadani',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Mochammad Rafli Ramadani personal website describe he as a Website Developer focused on Front-End Developer, Slicing Figma Design & API Consumption' },
-      { hid: 'keywords', name: 'keywords', content: 'mochammad rafli ramadani,portfolio mochammad rafli ramadani,portfolio rafli,portfolio rama,portofolio raple,portofolio mochammad rafli ramadani,portofolio rafli,portofolio rama,portofolio raple' },
+    //   { hid: 'description', name: 'description', content: 'Mochammad Rafli Ramadani personal website describe he as a Website Developer focused on Front-End Developer, Slicing Figma Design & API Consumption' },
+    //   { hid: 'keywords', name: 'keywords', content: 'mochammad rafli ramadani,portfolio mochammad rafli ramadani,portfolio rafli,portfolio rama,portofolio raple,portofolio mochammad rafli ramadani,portofolio rafli,portofolio rama,portofolio raple' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

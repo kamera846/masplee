@@ -5,13 +5,13 @@
           <div class="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center">
             <div class="navbar-brand w-100">
               <nuxt-link to="/">
-                <h3 class="text-dark fs-30 mb-0">MASPLE</h3>
+                <h3 class="text-uppercase text-dark fs-30 mb-0">{{ settings?.title }}</h3>
               </nuxt-link>
             </div>
             <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
               <div class="offcanvas-header d-lg-none">
 				<nuxt-link to="/">
-                	<h3 class="text-white fs-30 mb-0">MASPLE</h3>
+                	<h3 class="text-uppercase text-white fs-30 mb-0">{{ settings?.title }}</h3>
 				</nuxt-link>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
@@ -52,10 +52,7 @@
               <ul class="navbar-nav flex-row align-items-center ms-auto">
                 <li class="nav-item">
                   <nav class="nav social social-muted justify-content-end text-end">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a v-for="(item, index) in socmed" :key="'socmed-' + index" :href="item?.url"><i :class="'uil' + item?.icon"></i></a>
                   </nav>
                   <!-- /.social -->
                 </li>
@@ -74,3 +71,18 @@
       <!-- /.navbar -->
     </header>
 </template>
+
+<script>
+import { WEBSETTINGS, SOCMED } from '@/commons/constants/web-setting.js'
+
+export default {
+    computed: {
+        socmed() {
+            return SOCMED
+        },
+        settings() {
+            return WEBSETTINGS
+        }
+    }
+}
+</script>
