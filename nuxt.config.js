@@ -51,8 +51,8 @@ export default {
 
     // Deployment Target
     mode: 'static',
-    
+
     router: {
-        base: '/your-github-repository-name/'
+        base: '/Personal-Website/'
     },
 }
