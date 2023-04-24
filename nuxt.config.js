@@ -47,5 +47,12 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
+    },
+
+    // Deployment settings
+    target: 'static',
+    ssr: false,
+    generate: {
+        fallback: true
     }
 }
