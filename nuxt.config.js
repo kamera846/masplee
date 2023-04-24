@@ -47,17 +47,5 @@ export default {
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {
-    },
-
-    // Deployment Target
-    mode: 'static',
-
-    router: {
-        base: '/Personal-Website/'
-    },
-
-    // Allows page refresh to work on github pages
-    generate: {
-        fallback: "404.html"
-    },
+    }
 }
