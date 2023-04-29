@@ -31,9 +31,9 @@ export default {
 	components: { HeaderSection, FooterSection },
 
 	mounted() {
-		setTimeout(() => {
-			this.setExternalJS();
-		}, 2000);
+		// setTimeout(() => {
+		// 	this.setExternalJS();
+		// }, 2000);
 	},
 
 	methods: {

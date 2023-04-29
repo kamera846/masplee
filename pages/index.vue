@@ -1,12 +1,16 @@
 <template>
-	<Hero />
+	<div>
+        <HeroSection />
+	    <SkillSection />
+    </div>
 </template>
 
 <script>
-import Hero from "~/components/HeroSection.vue";
+import HeroSection from "~/components/HeroSection.vue";
+import SkillSection from "~/components/SkillSection.vue";
 
 export default {
 	name: "HomePage",
-	components: { Hero },
+	components: { HeroSection, SkillSection},
 };
 </script>
