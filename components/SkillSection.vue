@@ -13,7 +13,7 @@
 					<a href="#!" :class="`card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
 						<div class="card-body p-5 d-flex flex-row align-items-center">
 							<div>
-								<img class="avatar w-8 h-8 me-4" :src="item?.icon" :alt="item?.name" />
+								<img class="avatar w-10 h-10 me-4" :src="item?.icon" :alt="item?.name" />
 							</div>
                             <ul class="progress-list w-100">
                                 <li class="mb-2">
