@@ -1,12 +1,12 @@
 <template>
-  <Hero />
+	<Hero />
 </template>
 
 <script>
-import Hero from '~/components/HeroSection.vue'
+import Hero from "~/components/HeroSection.vue";
 
 export default {
-  name: 'HomePage',
-  components: { Hero }
-}
+	name: "HomePage",
+	components: { Hero },
+};
 </script>
