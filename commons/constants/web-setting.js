@@ -1,7 +1,8 @@
 const WEBSETTINGS = {
-    title: "Masple",
+    title: "masplee",
     description: 'Mochammad Rafli Ramadani personal website describe he as a Website Developer focused on Front-End Developer, Slicing Figma Design & API Consumption',
-    keywords: 'mochammad rafli ramadani,portfolio mochammad rafli ramadani,portfolio rafli,portfolio rama,portofolio raple,portofolio mochammad rafli ramadani,portofolio rafli,portofolio rama,portofolio raple'
+    keywords: 'mochammad rafli ramadani,portfolio mochammad rafli ramadani,portfolio rafli,portfolio rama,portofolio raple,portofolio mochammad rafli ramadani,portofolio rafli,portofolio rama,portofolio raple',
+    mail: "m.rafli.ramadani@gmail.com"
 }
 
 const SOCMED = [

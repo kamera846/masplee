@@ -1,11 +1,8 @@
 <template>
-	<footer>
+	<footer id="contact" class="bg-gray">
 		<div class="container py-7">
-			<div class="d-md-flex align-items-center justify-content-between">
-				<p class="mb-2 mb-lg-0">
-					© 2023 {{ settings?.title }}. All rights reserved.
-				</p>
-				<nav class="nav social social-muted mb-0 text-md-end">
+			<div class="text-center">
+				<nav class="nav social social-muted mb-0 justify-content-center">
 					<a
 						v-for="(item, index) in socmed"
 						:key="'socmed-' + index"
@@ -13,6 +10,10 @@
 						><i :class="'uil' + item?.icon"></i
 					></a>
 				</nav>
+                <a :href="`mailto:${ settings?.mail }`" class="hover-2 leaf">{{ settings?.mail }}</a>
+				<p>
+					© 2023 <span class="text-capitalize">{{ settings?.title }}</span>
+				</p>
 			</div>
 		</div>
 	</footer>

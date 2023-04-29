@@ -31,70 +31,22 @@
 			<!--/.row -->
 		</div>
 		<!-- /.container -->
+        <div class="overflow-hidden">
+            <div class="divider text-gray mx-n2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260.2,37.86c-60-10-120-20.07-180-16.76-60,3.71-120,19.77-180,18.47-60-1.71-120-21.78-180-31.82s-120-10-180-1.7c-60,8.73-120,24.79-180,28.5-60,3.31-120-6.73-180-11.74s-120-5-150-5H0V100H1440V49.63C1380.07,57.9,1320.13,47.88,1260.2,37.86Z"/></svg>
+            </div>
+        </div>
 	</section>
 	<!-- /section -->
 </template>
 
 <script>
+import { FRAMEWORKS } from "@/commons/constants/list-item.js";
+
 export default {
     computed: {
         frameworks() {
-            return [
-                {
-                    icon: "/assets/img/icons/nuxtjs.png",
-                    name: "Nuxt Js",
-                    value: "2 Tahun",
-                    color: "red"
-                },
-                {
-                    icon: "/assets/img/icons/bootstrap.png",
-                    name: "Bootstrap",
-                    value: "2 Tahun",
-                    color: "blue"
-                },
-                {
-                    icon: "/assets/img/icons/android-studio.png",
-                    name: "Android Studio",
-                    value: "1 Tahun",
-                    color: "pink"
-                },
-                {
-                    icon: "/assets/img/icons/laravel.png",
-                    name: "Laravel",
-                    value: "1 Tahun",
-                    color: "pink"
-                },
-                {
-                    icon: "/assets/img/icons/vuejs.png",
-                    name: "Vue Js",
-                    value: "6 Bulan",
-                    color: "yellow"
-                },
-                {
-                    icon: "/assets/img/icons/flutter.png",
-                    name: "Flutter",
-                    value: "3 Bulan",
-                    color: "purple"
-                },
-                {
-                    icon: "/assets/img/icons/tailwind.png",
-                    name: "Tailwind",
-                    value: "1 Bulan",
-                    color: "purple"
-                },
-                {
-                    icon: "/assets/img/icons/alpinejs.png",
-                    name: "Alpine JS",
-                    value: "1 Bulan",
-                    color: "red"
-                },
-                {
-                    icon: "/assets/img/icons/livewire.png",
-                    name: "Livewire",
-                    value: "1 Bulan",
-                    color: "green"
-                },
-            ]
+            return FRAMEWORKS
         }
     },
 }

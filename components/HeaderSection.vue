@@ -54,9 +54,9 @@
 							<div class="offcanvas-footer d-lg-none mt-8">
 								<div>
 									<a
-										href="mailto:m.rafli.ramadani@gmail.com"
+										:href="`mailto:${ settings?.mail }`"
 										class="link-inverse"
-										>m.rafli.ramadani@gmail.com</a
+										>{{ settings?.mail }}</a
 									>
 									<br />
 									<!-- <a

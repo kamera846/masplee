@@ -34,59 +34,12 @@
 </template>
 
 <script>
+import { SKILLS } from "@/commons/constants/list-item.js";
+
 export default {
     computed: {
         skills() {
-            return [
-                {
-                    icon: "/assets/img/icons/circle-html-5.png",
-                    name: "HTML 5",
-                    value: 90,
-                    color: "red"
-                },
-                {
-                    icon: "/assets/img/icons/square-javscript.png",
-                    name: "Javascript",
-                    value: 90,
-                    color: "yellow"
-                },
-                {
-                    icon: "/assets/img/icons/circle-sass.png",
-                    name: "Sass",
-                    value: 80,
-                    color: "pink"
-                },
-                {
-                    icon: "/assets/img/icons/square-kotlin.png",
-                    name: "Kotlin",
-                    value: 80,
-                    color: "purple"
-                },
-                {
-                    icon: "/assets/img/icons/circle-css.png",
-                    name: "CSS",
-                    value: 80,
-                    color: "blue"
-                },
-                {
-                    icon: "/assets/img/icons/circle-php.png",
-                    name: "PHP",
-                    value: 70,
-                    color: "purple"
-                },
-                {
-                    icon: "/assets/img/icons/square-java.png",
-                    name: "Java",
-                    value: 60,
-                    color: "red"
-                },
-                {
-                    icon: "/assets/img/icons/square-dart.png",
-                    name: "Dart",
-                    value: 50,
-                    color: "green"
-                },
-            ]
+            return SKILLS
         }
     },
 }
