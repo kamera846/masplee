@@ -11,8 +11,17 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        ],
-        script: []
+			{ rel: "stylesheet", href: "/assets/css/plugins.css" },
+			{ rel: "stylesheet", href: "/assets/css/style.css" },
+			{ rel: "stylesheet", href: "/assets/css/style.css.map" },
+			{ rel: "stylesheet", href: "/assets/css/main.css" },
+			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.css" },
+			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" },
+		],
+		script: [
+			{ id: "pluginsJs", src: "/assets/js/plugins.js", body: true, defer: true },
+			{ id: "themeJs", src: "/assets/js/theme.js", body: true, defer: true },
+		],
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css

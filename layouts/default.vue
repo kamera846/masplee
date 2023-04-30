@@ -20,27 +20,15 @@ import FooterSection from "@/components/FooterSection.vue";
 
 export default {
 	head: {
-        title: 'Masplee | Personal Website',
-		link: [
-			{ rel: "stylesheet", href: "/assets/css/plugins.css" },
-			{ rel: "stylesheet", href: "/assets/css/style.css" },
-			{ rel: "stylesheet", href: "/assets/css/style.css.map" },
-			{ rel: "stylesheet", href: "/assets/css/main.css" },
-			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.css" },
-			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" },
-		],
-		script: [
-			{ src: "/assets/js/plugins.js", body: true, defer: true },
-			{ src: "/assets/js/theme.js", body: true, defer: true },
-		],
+        title: 'Masplee | Personal Website'
 	},
 
 	components: { HeaderSection, FooterSection },
 
 	mounted() {
-		// setTimeout(() => {
-		// 	this.setExternalJS();
-		// }, 2000);
+		setTimeout(() => {
+			this.setExternalJS();
+		}, 1000);
 	},
 
 	methods: {
