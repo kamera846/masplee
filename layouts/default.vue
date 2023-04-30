@@ -25,44 +25,44 @@ export default {
 
 	components: { HeaderSection, FooterSection },
 
-	mounted() {
-		setTimeout(() => {
-			this.setExternalJS();
-		}, 1000);
-	},
+	// mounted() {
+	// 	setTimeout(() => {
+	// 		this.setExternalJS();
+	// 	}, 1000);
+	// },
 
-	methods: {
-		setExternalJS() {
-			let plugin = document.getElementById("pluginsJs");
-			let theme = document.getElementById("themeJs");
-			let nav = document.getElementsByClassName("navbar-clone");
+	// methods: {
+	// 	setExternalJS() {
+	// 		let plugin = document.getElementById("pluginsJs");
+	// 		let theme = document.getElementById("themeJs");
+	// 		let nav = document.getElementsByClassName("navbar-clone");
 
-			let externalPlugin = document.createElement("script");
-			externalPlugin.setAttribute("id", "pluginsJs");
-			externalPlugin.setAttribute("src", "/assets/js/plugins.js");
+	// 		let externalPlugin = document.createElement("script");
+	// 		externalPlugin.setAttribute("id", "pluginsJs");
+	// 		externalPlugin.setAttribute("src", "/assets/js/plugins.js");
 
-			let externalTheme = document.createElement("script");
-			externalTheme.setAttribute("id", "themeJs");
-			externalTheme.setAttribute("src", "/assets/js/theme.js");
+	// 		let externalTheme = document.createElement("script");
+	// 		externalTheme.setAttribute("id", "themeJs");
+	// 		externalTheme.setAttribute("src", "/assets/js/theme.js");
 
-			if (plugin) plugin.remove();
-			if (theme) theme.remove();
+	// 		if (plugin) plugin.remove();
+	// 		if (theme) theme.remove();
 
-			document.body.appendChild(externalPlugin);
-			document.body.appendChild(externalTheme);
+	// 		document.body.appendChild(externalPlugin);
+	// 		document.body.appendChild(externalTheme);
 
-			setTimeout(() => {
-				for (let index = 0; index < nav.length; index++) {
-					if (index != nav.length - 1) {
-						var element =
-							document.getElementsByClassName("navbar-clone")[
-								index
-							];
-						element.remove();
-					}
-				}
-			}, 1000);
-		},
-	},
+	// 		setTimeout(() => {
+	// 			for (let index = 0; index < nav.length; index++) {
+	// 				if (index != nav.length - 1) {
+	// 					var element =
+	// 						document.getElementsByClassName("navbar-clone")[
+	// 							index
+	// 						];
+	// 					element.remove();
+	// 				}
+	// 			}
+	// 		}, 1000);
+	// 	},
+	// },
 };
 </script>
