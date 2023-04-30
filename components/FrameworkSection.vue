@@ -17,11 +17,11 @@
 								<img class="avatar w-10 h-10 me-4" :src="item?.icon" :alt="item?.name" />
 							</div>
 							<div>
+								<h4 class="mb-0">{{ item?.name }}</h4>
 								<span
 									class="badge bg-pale-green text-green rounded py-1"
 									>{{ item?.value }}</span
 								>
-								<h4 class="mb-1">{{ item?.name }}</h4>
 							</div>
 						</div>
 					</a>
