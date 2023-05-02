@@ -40,13 +40,13 @@
 									>
 								</li>
 								<li class="nav-item">
-									<nuxt-link class="nav-link" to="#skills"
-										>Skills</nuxt-link
+									<nuxt-link class="nav-link" to="#latest-works"
+										>Portfolio</nuxt-link
 									>
 								</li>
 								<li class="nav-item">
-									<nuxt-link class="nav-link" to="#"
-										>Portfolio</nuxt-link
+									<nuxt-link class="nav-link" to="#skills"
+										>Skills</nuxt-link
 									>
 								</li>
 							</ul>

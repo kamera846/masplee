@@ -1,6 +1,5 @@
 <template>
 	<section class="wrapper bg-light">
-        <hr class="double my-8" />
 		<div class="container py-10 py-md-14">
             <div class="row text-center">
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
@@ -11,7 +10,7 @@
 			<!-- /.row -->
 			<div class="row gy-6">
 				<div v-for="(item, index) in frameworks" :key="'skill-'+index" class="col-12 col-md-6 col-lg-4">
-					<a href="#!" :class="`card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
+					<div :class="`card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
 						<div class="card-body p-5 d-flex flex-row align-items-center">
 							<div>
 								<img class="avatar w-10 h-10 me-4" :src="item?.icon" :alt="item?.name" />
@@ -24,7 +23,7 @@
 								>
 							</div>
 						</div>
-					</a>
+					</div>
 				</div>
 				<!--/column -->
 			</div>

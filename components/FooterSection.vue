@@ -1,6 +1,6 @@
 <template>
 	<footer id="contact" class="bg-gray">
-		<div class="container py-7">
+		<div class="container py-10 py-md-14">
 			<div class="text-center">
 				<nav class="nav social social-muted mb-0 justify-content-center">
 					<a

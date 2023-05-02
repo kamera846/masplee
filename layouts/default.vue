@@ -29,46 +29,7 @@ export default {
 
 	components: { HeaderSection, FooterSection },
 
-	mounted() {
-		setTimeout(() => {
-			this.setExternalJS();
-		}, 1000);
-	},
-
 	methods: {
-		setExternalJS() {
-			let plugin = document.getElementById("pluginsJs");
-			let theme = document.getElementById("themeJs");
-			let nav = document.getElementsByClassName("navbar-clone");
-
-			let externalPlugin = document.createElement("script");
-			externalPlugin.setAttribute("id", "pluginsJs");
-			externalPlugin.setAttribute("src", "/assets/js/plugins.js");
-			externalPlugin.setAttribute("defer", true);
-
-			let externalTheme = document.createElement("script");
-			externalTheme.setAttribute("id", "themeJs");
-			externalTheme.setAttribute("src", "/assets/js/theme.js");
-			externalTheme.setAttribute("defer", true);
-
-			if (plugin) plugin.remove();
-			if (theme) theme.remove();
-
-			document.body.appendChild(externalPlugin);
-			document.body.appendChild(externalTheme);
-
-			setTimeout(() => {
-				for (let index = 0; index < nav.length; index++) {
-					if (index != nav.length - 1) {
-						var element =
-							document.getElementsByClassName("navbar-clone")[
-								index
-							];
-						element.remove();
-					}
-				}
-			}, 1000);
-		},
 		capitalize(str) {
 			const arr = str.split(" ");
 			for (var i = 0; i < arr.length; i++) {
