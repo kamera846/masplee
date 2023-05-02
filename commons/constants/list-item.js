@@ -2,25 +2,25 @@ const FRAMEWORKS = [
     {
         icon: "/assets/img/icons/nuxtjs.png",
         name: "Nuxt Js",
-        value: "2 Tahun",
+        value: "2 Year",
         color: "red"
     },
     {
         icon: "/assets/img/icons/bootstrap.png",
         name: "Bootstrap",
-        value: "2 Tahun",
+        value: "2 Year",
         color: "blue"
     },
     {
         icon: "/assets/img/icons/android-studio.png",
         name: "Android Studio",
-        value: "1 Tahun",
+        value: "1 Year",
         color: "pink"
     },
     {
         icon: "/assets/img/icons/laravel.png",
         name: "Laravel",
-        value: "1 Tahun",
+        value: "1 Year",
         color: "pink"
     },
     {
@@ -106,7 +106,35 @@ const SKILLS = [
     },
 ]
 
+const PORTFOLIO = [
+    {
+        cover: "/assets/img/portfolio/hanadolabs.png",
+        name: "Hanadolabs",
+        tag: "Landing Page",
+        url: "https://hanadolabs.id/",
+    },
+    {
+        cover: "/assets/img/portfolio/jambore.png",
+        name: "Jambore",
+        tag: "Landing Page",
+        url: "https://jambore.informatika.org/",
+    },
+    {
+        cover: "/assets/img/portfolio/smk-coding.png",
+        name: "SMK Coding",
+        tag: "Landing Page",
+        url: "https://smkcoding.id/",
+    },
+    {
+        cover: "/assets/img/portfolio/umptn.png",
+        name: "UMPTN",
+        tag: "Landing Page",
+        url: "https://umptn.alkademi.id/",
+    },
+]
+
 export {
     FRAMEWORKS,
-    SKILLS
+    SKILLS,
+    PORTFOLIO
 }
