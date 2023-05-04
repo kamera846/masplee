@@ -7,11 +7,11 @@
 						v-for="(item, index) in socmed"
 						:key="'socmed-' + index"
 						:href="item?.url"
-						><i :class="'uil' + item?.icon"></i
+						><i :class="'fs-25 lh-sm uil' + item?.icon"></i
 					></a>
 				</nav>
-                <a :href="`mailto:${ settings?.mail }`" class="hover-2 leaf">{{ settings?.mail }}</a>
-				<p>
+                <a :href="`mailto:${ settings?.mail }`" class="fs-22 lh-sm hover-2 leaf">{{ settings?.mail }}</a>
+				<p class="lead fs-22 lh-sm">
 					© 2023 <span class="text-capitalize">{{ settings?.title }}</span>
 				</p>
 			</div>
