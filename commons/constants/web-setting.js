@@ -6,21 +6,21 @@ const WEBSETTINGS = {
 }
 
 const SOCMED = [
-    {
-        name: 'twitter',
-        icon: 'uil uil-twitter',
-        url: 'https://twitter.com/mrafliramadani_'
-    },
-    {
-        name: 'facebook',
-        icon: 'uil uil-facebook-f',
-        url: 'https://web.facebook.com/ramakerouk.ii/'
-    },
-    {
-        name: 'instagram',
-        icon: 'uil uil-instagram',
-        url: 'https://www.instagram.com/_rafliram_/'
-    },
+    // {
+    //     name: 'twitter',
+    //     icon: 'uil uil-twitter',
+    //     url: 'https://twitter.com/mrafliramadani_'
+    // },
+    // {
+    //     name: 'facebook',
+    //     icon: 'uil uil-facebook-f',
+    //     url: 'https://web.facebook.com/ramakerouk.ii/'
+    // },
+    // {
+    //     name: 'instagram',
+    //     icon: 'uil uil-instagram',
+    //     url: 'https://www.instagram.com/_rafliram_/'
+    // },
     {
         name: 'linkedin',
         icon: 'uil uil-linkedin',

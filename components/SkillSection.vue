@@ -5,11 +5,9 @@
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
 					<h3 class="display-4">Skill Set</h3>
 				</div>
-				<!-- /column -->
 			</div>
-			<!-- /.row -->
 			<div class="row gy-6">
-				<div v-for="(item, index) in skills" :key="'skill-'+index" class="col-12 col-md-6">
+				<div v-for="(item, idx) in skills" :key="'skill-'+idx" class="col-12 col-md-6">
 					<div :class="`card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
 						<div class="card-body p-5 d-flex flex-row align-items-center">
 							<div>
@@ -24,13 +22,9 @@
 						</div>
 					</div>
 				</div>
-				<!--/column -->
 			</div>
-			<!--/.row -->
 		</div>
-		<!-- /.container -->
 	</section>
-	<!-- /section -->
 </template>
 
 <script>

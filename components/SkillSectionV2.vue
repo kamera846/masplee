@@ -1,13 +1,13 @@
 <template>
-	<section class="wrapper bg-light">
+	<section id="skills" class="wrapper bg-light">
 		<div class="container py-10 py-md-14">
             <div class="row text-center">
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
-					<h3 class="display-4">Framework That I Have Used</h3>
+					<h3 class="display-4">Skill Set</h3>
 				</div>
 			</div>
 			<div class="row justify-content-center gy-6">
-				<div v-for="(item, index) in frameworks" :key="'skill-'+index" class="col-12 col-md-6 col-lg-4">
+				<div v-for="(item, idx) in skills" :key="'skill-'+idx" class="col-12 col-md-6 col-lg-4">
 					<div class="card lift h-100 text-dark">
 						<div class="card-body p-5 d-flex flex-row align-items-center">
 							<div>
@@ -17,7 +17,7 @@
 								<h4 class="mb-0">{{ item?.name }}</h4>
 								<span
 									class="badge bg-pale-green text-green rounded py-1"
-									>{{ item?.value }}</span
+									>{{ item?.exp }}</span
 								>
 							</div>
 						</div>
@@ -25,21 +25,16 @@
 				</div>
 			</div>
 		</div>
-        <div class="overflow-hidden pt-10 pt-md-14">
-            <div class="divider text-gray mx-n2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260.2,37.86c-60-10-120-20.07-180-16.76-60,3.71-120,19.77-180,18.47-60-1.71-120-21.78-180-31.82s-120-10-180-1.7c-60,8.73-120,24.79-180,28.5-60,3.31-120-6.73-180-11.74s-120-5-150-5H0V100H1440V49.63C1380.07,57.9,1320.13,47.88,1260.2,37.86Z"/></svg>
-            </div>
-        </div>
 	</section>
 </template>
 
 <script>
-import { FRAMEWORKS } from "@/commons/constants/list-item.js";
+import { SKILLS } from "@/commons/constants/list-item.js";
 
 export default {
     computed: {
-        frameworks() {
-            return FRAMEWORKS
+        skills() {
+            return SKILLS
         }
     },
 }
@@ -52,5 +47,8 @@ export default {
 }
 .progress-title {
     line-height: 100%;
+}
+.progress-list .progressbar svg {
+    height: 0 !important;
 }
 </style>

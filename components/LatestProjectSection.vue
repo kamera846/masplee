@@ -4,7 +4,7 @@
 			<div class="row text-center">
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
 					<h3 class="display-4">
-						My Latest Works
+						Latest Work
 					</h3>
 				</div>
 			</div>
