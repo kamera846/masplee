@@ -6,23 +6,23 @@
 					class="navbar-collapse-wrapper bg-white d-flex flex-row flex-nowrap w-100 justify-content-between align-items-center"
 				>
 					<div class="navbar-brand w-100">
-						<nuxt-link to="/">
+						<a href="/">
 							<h3 class="text-uppercase text-dark fs-30 mb-0">
 								{{ settings?.title }}
 							</h3>
-						</nuxt-link>
+						</a>
 					</div>
 					<div
 						class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
 					>
 						<div class="offcanvas-header d-lg-none">
-							<nuxt-link to="/">
+							<a href="/">
 								<h3
 									class="text-uppercase text-white fs-30 mb-0"
 								>
 									{{ settings?.title }}
 								</h3>
-							</nuxt-link>
+							</a>
 							<button
 								type="button"
 								class="btn-close btn-close-white"
@@ -35,18 +35,18 @@
 						>
 							<ul class="navbar-nav">
 								<li class="nav-item">
-									<nuxt-link class="nav-link" to="#about"
-										>About</nuxt-link
+									<a class="nav-link" href="/#about"
+										>About</a
 									>
 								</li>
 								<li class="nav-item">
-									<nuxt-link class="nav-link" to="#latest-works"
-										>Portfolio</nuxt-link
+									<a class="nav-link" href="/portfolios"
+										>Portfolio</a
 									>
 								</li>
 								<li class="nav-item">
-									<nuxt-link class="nav-link" to="#skills"
-										>Skills</nuxt-link
+									<a class="nav-link" href="/#skills"
+										>Skills</a
 									>
 								</li>
 							</ul>

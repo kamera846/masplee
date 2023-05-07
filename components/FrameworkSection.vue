@@ -25,11 +25,6 @@
 				</div>
 			</div>
 		</div>
-        <div class="overflow-hidden pt-10 pt-md-14">
-            <div class="divider text-gray mx-n2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="currentColor" d="M1260.2,37.86c-60-10-120-20.07-180-16.76-60,3.71-120,19.77-180,18.47-60-1.71-120-21.78-180-31.82s-120-10-180-1.7c-60,8.73-120,24.79-180,28.5-60,3.31-120-6.73-180-11.74s-120-5-150-5H0V100H1440V49.63C1380.07,57.9,1320.13,47.88,1260.2,37.86Z"/></svg>
-            </div>
-        </div>
 	</section>
 </template>
 

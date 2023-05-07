@@ -8,7 +8,7 @@
 			</div>
 			<div class="row gy-6">
 				<div v-for="(item, idx) in skills" :key="'skill-'+idx" class="col-12 col-md-6">
-					<div :class="`card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
+					<div :class="`skill-item card shadow-lg lift h-100 ${ item?.value >= 90 ? 'text-'+item?.color : 'text-dark' }`">
 						<div class="card-body p-5 d-flex flex-row align-items-center">
 							<div>
 								<img class="avatar w-10 h-10 me-4" :src="item?.icon" :alt="item?.name" />
@@ -38,16 +38,3 @@ export default {
     },
 }
 </script>
-
-<style scoped>
-.avatar {
-    border-radius: 0;
-    object-fit: contain;
-}
-.progress-title {
-    line-height: 100%;
-}
-.progress-list .progressbar svg {
-    height: 0 !important;
-}
-</style>

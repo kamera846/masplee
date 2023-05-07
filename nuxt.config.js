@@ -14,9 +14,9 @@ export default {
 			{ rel: "stylesheet", href: "/assets/css/plugins.css" },
 			{ rel: "stylesheet", href: "/assets/css/style.css" },
 			{ rel: "stylesheet", href: "/assets/css/style.css.map" },
-			{ rel: "stylesheet", href: "/assets/css/main.css" },
 			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.css" },
-			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" }
+			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" },
+			{ rel: "stylesheet", href: "/assets/css/main.css" }
 		]
     },
 

@@ -1,20 +1,20 @@
 <template>
-	<section id="latest-works" class="wrapper bg-light">
+	<section id="portfolios" class="wrapper bg-gradient-green">
 		<div class="container py-10 py-md-14">
 			<div class="row text-center">
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
 					<h3 class="display-4">
-						Latest Work
+						All My Portfolios
 					</h3>
 				</div>
 			</div>
 
 			<div class="position-relative">
 				<div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;"></div>
-				<div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
-					<div class="swiper">
-						<div class="swiper-wrapper">
-							<div v-for="(item, idx) in portfolio" :key="'portfolio-'+idx" class="swiper-slide cursor-default">
+				<div class="portfolio blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+					<div class="mx-auto p-0">
+						<div class="row">
+							<div v-for="(item, idx) in portfolio" :key="'portfolio-'+idx" class="col-12 col-md-6 col-lg-4 cursor-default">
 								<div class="item-inner">
 									<article>
 										<div class="card">
@@ -59,28 +59,15 @@ export default {
         portfolio() {
             return PORTFOLIO
         }
-    }
+    },
+	
+	head() {
+		return {
+			script: [
+				{ hid: "extscript", src: "/assets/js/plugins.js", body: true, defer: true },
+				{ hid: "extscript", src: "/assets/js/theme.js", body: true, defer: true },
+			]
+		}
+	},
 }
 </script>
-
-<style scoped>
-.swiper-container .swiper figure {
-    cursor: default;
-}
-.swiper-container .swiper img {
-    object-fit: cover;
-    height: auto !important;
-    max-height: 300px;
-}
-.cursor-default {
-	cursor: default;
-}
-.text-limit-1 {
-	overflow: hidden;
-	word-break: break-all;
-	display: -webkit-box;
-	-webkit-line-clamp: 1; /* number of lines to show */
-			line-clamp: 1; 
-	-webkit-box-orient: vertical;
-}
-</style>

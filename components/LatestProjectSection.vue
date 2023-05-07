@@ -10,7 +10,7 @@
 			</div>
 
 			<div
-				class="swiper-container grid-view mb-6"
+				class="portfolio swiper-container grid-view mb-6"
 				data-margin="30"
 				data-dots="true"
 				data-items-xl="3"
@@ -70,12 +70,7 @@ export default {
 </script>
 
 <style scoped>
-.swiper-container .swiper figure {
-    cursor: default;
-}
-.swiper-container .swiper img {
-    object-fit: cover;
-    height: auto !important;
+.portfolio.swiper-container .swiper img {
     max-height: 440px;
 }
 </style>
