@@ -14,14 +14,10 @@ export default {
 			{ rel: "stylesheet", href: "/assets/css/plugins.css" },
 			{ rel: "stylesheet", href: "/assets/css/style.css" },
 			{ rel: "stylesheet", href: "/assets/css/style.css.map" },
-			{ rel: "stylesheet", href: "/assets/css/main.css" },
 			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.css" },
-			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" }
-		],
-        // script: [
-        //     { id: "pluginsJs", src: "/assets/js/plugins.js", body: true },
-        //     { id: "themeJs", src: "/assets/js/theme.js", body: true },
-        // ]
+			{ rel: "stylesheet", href: "/assets/css/colors/leaf.css" },
+			{ rel: "stylesheet", href: "/assets/css/main.css" }
+		]
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
