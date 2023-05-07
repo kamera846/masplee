@@ -20,7 +20,7 @@ export default {
 		return {
 			script: [
 				{ hid: "extscript", src: "/assets/js/plugins.js", body: true, defer: true },
-            	{ hid: "extscript", src: "/assets/js/theme.js", body: true, defer: true },
+				{ hid: "extscript", src: "/assets/js/theme.js", body: true, defer: true },
 			]
 		}
 	},

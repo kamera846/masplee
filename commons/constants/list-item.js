@@ -116,6 +116,13 @@ const SKILLS = [
 
 const PORTFOLIO = [
     {
+        cover: "/assets/img/portfolio/dashboard-student-alkademi-v1-cover.png",
+        previewCover: "/assets/img/portfolio/dashboard-student-alkademi-v1-preview.png",
+        name: "Alkademi LMS Dashboard",
+        tag: "Dashboard",
+        url: "",
+    },
+    {
         cover: "/assets/img/portfolio/hanadolabs.png",
         name: "Hanadolabs",
         tag: "Landing Page",
@@ -128,16 +135,22 @@ const PORTFOLIO = [
         url: "https://jambore.informatika.org/",
     },
     {
+        cover: "/assets/img/portfolio/umptn.png",
+        name: "UMPTN",
+        tag: "Landing Page",
+        url: "https://umptn.alkademi.id/",
+    },
+    {
         cover: "/assets/img/portfolio/smk-coding.png",
         name: "SMK Coding",
         tag: "Landing Page",
         url: "https://smkcoding.id/",
     },
     {
-        cover: "/assets/img/portfolio/umptn.png",
-        name: "UMPTN",
+        cover: "/assets/img/portfolio/jongkreatif.png",
+        name: "Jong Kreatif",
         tag: "Landing Page",
-        url: "https://umptn.alkademi.id/",
+        url: "https://jongkreatif.id/",
     },
 ]
 
