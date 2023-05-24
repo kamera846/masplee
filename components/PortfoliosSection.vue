@@ -1,5 +1,5 @@
 <template>
-	<section id="portfolios" class="wrapper bg-gradient-green">
+	<section id="portfolios" class="wrapper bg-gradient-gray">
 		<div class="container py-10 py-md-14">
 			<div class="row text-center">
 				<div class="col-xl-10 mx-auto mb-10 px-xxl-15">
