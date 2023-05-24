@@ -7,9 +7,7 @@
 				>
 					<div class="navbar-brand w-100">
 						<a href="/">
-							<h3 class="text-uppercase text-dark fs-30 mb-0">
-								{{ settings?.title }}
-							</h3>
+							<img src="/assets/img/logo-dark.webp" alt="Logo Dark" class="img-logo">
 						</a>
 					</div>
 					<div
@@ -17,11 +15,7 @@
 					>
 						<div class="offcanvas-header d-lg-none">
 							<a href="/">
-								<h3
-									class="text-uppercase text-white fs-30 mb-0"
-								>
-									{{ settings?.title }}
-								</h3>
+								<img src="/assets/img/logo-light.webp" alt="Logo Ligh" class="img-logo">
 							</a>
 							<button
 								type="button"
