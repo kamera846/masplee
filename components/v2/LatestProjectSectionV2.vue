@@ -74,8 +74,8 @@ export default {
 	head() {
 		return {
 			script: [
-				{ hid: "extscript", src: "/assets/js/plugins.min.js", body: true, defer: true },
-				{ hid: "extscript", src: "/assets/js/theme.min.js", body: true, defer: true },
+				{ hid: "extscript", src: "/assets/js/plugins.js", body: true, defer: true },
+				{ hid: "extscript", src: "/assets/js/theme.js", body: true, defer: true },
 			]
 		}
 	},
