@@ -16,6 +16,12 @@ html {
 }
 /* End Global Custom Style */
 
+/* Header Custom Style */
+.navbar-brand .img-logo, .offcanvas-header .img-logo {
+    max-height:32px
+}
+/* End Header Custom Style */
+
 /* Portfolio Custom Style */
 .portfolio {
     z-index: 10;
