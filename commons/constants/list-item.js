@@ -116,9 +116,9 @@ const SKILLS = [
 
 const PORTFOLIO = [
     {
-        cover: "/assets/img/portfolio/dashboard-student-alkademi-v1-cover.png",
-        previewCover: "/assets/img/portfolio/dashboard-student-alkademi-v1-preview.png",
-        name: "Alkademi LMS Dashboard",
+        cover: "/assets/img/portfolio/alkademi-dashboard-v2.png",
+        previewCover: "/assets/img/portfolio/alkademi-dashboard-v2-preview.png",
+        name: "Alkademi Dashboard V2",
         tag: "Dashboard",
         url: "",
     },
@@ -141,6 +141,33 @@ const PORTFOLIO = [
         url: "https://umptn.alkademi.id/",
     },
     {
+        cover: "/assets/img/portfolio/alkademi-formulir-portal.png",
+        previewCover: "/assets/img/portfolio/alkademi-formulir-portal-preview.png",
+        name: "Alkademi Formulir Portal",
+        tag: "Form",
+        url: "",
+    },
+    {
+        cover: "/assets/img/portfolio/dashboard-student-alkademi-v1-cover.png",
+        previewCover: "/assets/img/portfolio/dashboard-student-alkademi-v1-preview.png",
+        name: "Alkademi Dashboard",
+        tag: "Dashboard",
+        url: "",
+    },
+    {
+        cover: "/assets/img/portfolio/alkademi-auth-portal.png",
+        previewCover: "/assets/img/portfolio/alkademi-auth-portal-preview.png",
+        name: "Alkademi Auth Portal",
+        tag: "Auth",
+        url: "",
+    },
+    {
+        cover: "/assets/img/portfolio/alkademi.png",
+        name: "Alkademi",
+        tag: "Landing Page",
+        url: "https://alkademi.id/",
+    },
+    {
         cover: "/assets/img/portfolio/smk-coding.png",
         name: "SMK Coding",
         tag: "Landing Page",
@@ -151,7 +178,7 @@ const PORTFOLIO = [
         name: "Jong Kreatif",
         tag: "Landing Page",
         url: "https://jongkreatif.id/",
-    },
+    }
 ]
 
 export {
