@@ -15,9 +15,9 @@
 					<div class="mx-auto p-0">
 						<div class="row">
 							<div v-for="(item, idx) in portfolio" :key="'portfolio-'+idx" class="col-12 col-md-6 col-lg-4 cursor-default">
-								<div class="item-inner">
-									<article>
-										<div class="card">
+								<div class="item-inner h-100">
+									<article class="h-100">
+										<div class="card h-100">
 											<figure class="card-img-top overlay overlay-1 hover-scale">
 												<a v-if="item?.url" :href="item?.url" target="_blank"><img :src="item?.cover" :alt="item?.name" /></a>
 												<a v-else :href="item?.previewCover" data-glightbox :data-gallery="'portfolio-group-cover-'+idx"><img :src="item?.cover" :alt="item?.name" /></a>
@@ -30,7 +30,7 @@
 													<div class="post-category text-line">
 														<a class="cursor-default" rel="category">{{ item?.tag }}</a>
 													</div>
-													<h2 class="post-title text-limit-1 h3 mt-1 mb-3">
+													<h2 class="post-title text-limit-2 h3 mt-1 mb-3">
 														<a v-if="item?.url" class="link-dark" :href="!item?.url ? item?.previewCover : item?.url" target="_blank">{{ item?.name }}</a>
 														<a v-else class="link-dark" :href="item?.previewCover" data-glightbox :data-gallery="'portfolio-group-title-'+idx">{{ item?.name }}</a>
 													</h2>
