@@ -1,69 +1,53 @@
-# personal-website
+# Mochammad Rafli Ramadani - CV
+### `Front-End Developer`
 
-## Build Setup
++62 8956-3699-8639
 
-```bash
-# install dependencies
-$ npm install
+Malang, Jawa Timur, Indonesia
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+[mochammadrafliramadani@gmail.com](mailto:mochammadrafliramadani@gmail.com)
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## About Me
+I am a Mobile & Website Developer with more than three years of experience. My focus is on
+Front-End Developer, Slicing Figma Design & API Consumption.
 
-# generate static project
-$ npm run generate
-```
+## Skill
+HTML | CSS | SASS | Javascript | Kotlin | PHP | Java | Dart
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+Android Studio | Flutter | Nuxt Vue.Js | Laravel | Bootstrap | Tailwind | Alpine.Js | Livewire
 
-## Special Directories
+## Portfolio
+[https://masplee.netlify.app/portfolios](https://masplee.netlify.app/portfolios)
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+[https://github.com/kamera846](https://github.com/kamera846)
 
-### `assets`
+## Experience
+### _Top Mortar (Current Job)_ `Juni 2023 - Now`
+As a Front-End Developer at a Cement Production Company, I develop Mobile Apps (android & ios) to support the productivity of their employees and consumers.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+### _Globetek (1 Months-Freelance)_ `August - September 2023`
+As a Full-Stack Developer I develop internal Web Apps to support employees productivity in their company.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+### _Alkademi (2 Years)_ `March 2021 - May 2023`
+As a Front-End Developer at an Educational Technology Company, I develop SAAS (Software as a Service) and become a mentor in several learning programs at Alkademi.
 
-### `components`
+### _Farcapital x Alkademi (3 Months)_ `November 2022 - January 2023`
+Mentoring students to build Reactive Web Apps using Laravel with TALL Stack.
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+### _Pesilat x Alkademi (1 Months)_ `August - September 2022`
+Mentoring students to build a website with a Low Code Platform named Budibase.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+### _JongKreatif x Alkademi (6 Months)_ `April - September 2022`
+Develop more than 7 Portal Information Websites as Project Manager (PM).
 
-### `layouts`
+### _JongKreatif x Alkademi (3 Months)_ `September - December 2021`
+Mentoring students to build a website using HTML & CSS Native with Laravel.
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+### _Ezy Industries (6 Months)_ `May - October 2021`
+Build Website Learning Management System (LMS).
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+### _SMK Coding (2 Months)_ `May - Jun 2022`
+Help students understand Android Kotlin as Mentor Assistance at Program SMK Coding.
 
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+### _Ezy Industries (1 Years-Internship)_ `November 2018 - September 2019`
+Internship school develops and manages Android Applications with Java & Kotlin Languages.
