@@ -6,16 +6,22 @@ const FRAMEWORKS = [
         color: "red"
     },
     {
+        icon: "/assets/img/icons/android-studio.png",
+        name: "Android Studio",
+        value: "2 Year Experience",
+        color: "pink"
+    },
+    {
         icon: "/assets/img/icons/bootstrap.png",
         name: "Bootstrap",
         value: "2 Year Experience",
         color: "blue"
     },
     {
-        icon: "/assets/img/icons/android-studio.png",
-        name: "Android Studio",
+        icon: "/assets/img/icons/flutter.png",
+        name: "Flutter",
         value: "1 Year Experience",
-        color: "pink"
+        color: "purple"
     },
     {
         icon: "/assets/img/icons/laravel.png",
@@ -26,14 +32,8 @@ const FRAMEWORKS = [
     {
         icon: "/assets/img/icons/vuejs.png",
         name: "Vue Js",
-        value: "6 Month Experience",
+        value: "1 Year Experience",
         color: "yellow"
-    },
-    {
-        icon: "/assets/img/icons/flutter.png",
-        name: "Flutter",
-        value: "2 Month Experience",
-        color: "purple"
     },
     {
         icon: "/assets/img/icons/tailwind.png",
@@ -78,17 +78,24 @@ const SKILLS = [
         exp: "2 Year Experience"
     },
     {
-        icon: "/assets/img/icons/circle-sass.png",
-        name: "Sass",
-        value: 80,
-        color: "pink",
-        exp: "1 Year Experience"
-    },
-    {
         icon: "/assets/img/icons/square-kotlin.png",
         name: "Kotlin",
         value: 80,
         color: "purple",
+        exp: "2 Year Experience"
+    },
+    {
+        icon: "/assets/img/icons/square-dart.png",
+        name: "Dart",
+        value: 50,
+        color: "green",
+        exp: "1 Year Experience"
+    },
+    {
+        icon: "/assets/img/icons/circle-sass.png",
+        name: "Sass",
+        value: 80,
+        color: "pink",
         exp: "1 Year Experience"
     },
     {
@@ -104,13 +111,6 @@ const SKILLS = [
         value: 60,
         color: "red",
         exp: "1 Year Experience"
-    },
-    {
-        icon: "/assets/img/icons/square-dart.png",
-        name: "Dart",
-        value: 50,
-        color: "green",
-        exp: "2 Month Experience"
     },
 ]
 
