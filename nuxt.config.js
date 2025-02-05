@@ -11,12 +11,12 @@ export default {
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/assets/img/favicon.ico' },
-			{ rel: "stylesheet", href: "/assets/css/plugins.min.css" },
-			{ rel: "stylesheet", href: "/assets/css/style.min.css" },
-			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.min.css" },
-			{ rel: "stylesheet", href: "/assets/css/colors/leaf.min.css" },
-			{ rel: "stylesheet", href: "/assets/css/main.min.css" }
-		]
+      			{ rel: "stylesheet", href: "/assets/css/plugins.min.css" },
+      			{ rel: "stylesheet", href: "/assets/css/style.min.css" },
+      			{ rel: "stylesheet", href: "/assets/css/fonts/poppins.min.css" },
+      			{ rel: "stylesheet", href: "/assets/css/colors/leaf.min.css" },
+      			{ rel: "stylesheet", href: "/assets/css/main.min.css" }
+    		]
     },
 
     // Global CSS: https://go.nuxtjs.dev/config-css
