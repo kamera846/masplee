@@ -5,9 +5,8 @@ export default {
             lang: 'en'
         },
         meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { name: 'format-detection', content: 'telephone=no' }
+            { name: 'description', content: 'Mochammad Rafli Ramadani' },
+            { name: 'keywords', content: 'Mochammad Rafli Ramadani' },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/assets/img/favicon.ico' },
