@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { WEBSETTINGS, SOCMED } from "@/commons/constants/web-setting.js";
+import { WEBSETTINGS, SOCMED } from "@/commons/constants/web-setting.min.js";
 
 export default {
 	computed: {
