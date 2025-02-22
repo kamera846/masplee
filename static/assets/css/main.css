@@ -28,6 +28,20 @@ html {
 .navbar-brand .img-logo, .offcanvas-header .img-logo {
     max-height:32px
 }
+.navbar-nav .nav-item .nav-link svg {
+	height: 12px;
+	width: 12px;
+	fill: #343f52;
+	transition: fill .2s ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover svg {
+	fill: #7cb798;
+}
+@media (max-width: 991.98px) {
+    .navbar-expand-lg .navbar-collapse .nav-link svg {
+		fill: #fff !important;
+	}
+}
 /* End Header Custom Style */
 
 /* Portfolio Custom Style */

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { WEBSETTINGS } from "@/commons/constants/web-setting.js";
+import { WEBSETTINGS } from "@/commons/constants/web-setting.min.js";
 import HeaderSection from "@/components/HeaderSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 

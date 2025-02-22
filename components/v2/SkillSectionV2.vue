@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { SKILLS } from "@/commons/constants/list-item.js";
+import { SKILLS } from "@/commons/constants/list-item.min.js";
 
 export default {
     computed: {

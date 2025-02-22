@@ -58,7 +58,7 @@
 </template>
 
 <script>
-import { PORTFOLIO } from "@/commons/constants/list-item.js"
+import { PORTFOLIO } from "@/commons/constants/list-item.min.js"
 
 export default {
     computed: {

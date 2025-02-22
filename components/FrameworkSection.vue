@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { FRAMEWORKS } from "@/commons/constants/list-item.js";
+import { FRAMEWORKS } from "@/commons/constants/list-item.min.js";
 
 export default {
     computed: {

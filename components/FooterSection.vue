@@ -6,7 +6,7 @@
             </div>
         </div>
 		<div class="container py-10 py-md-14">
-			<div class="text-center">
+			<div class="text-center text-break">
 				<nav class="nav social social-muted mb-0 justify-content-center">
 					<a
 						v-for="(item, index) in socmed"
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { WEBSETTINGS, SOCMED } from "@/commons/constants/web-setting.js";
+import { WEBSETTINGS, SOCMED } from "@/commons/constants/web-setting.min.js";
 
 export default {
 	computed: {
