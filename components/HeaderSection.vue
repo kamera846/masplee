@@ -46,7 +46,7 @@
 							</ul>
 							<!-- /.navbar-nav -->
 							<div class="offcanvas-footer d-lg-none mt-8">
-								<div>
+								<div class="text-break">
 									<a
 										:href="`mailto:${ settings?.mail }`"
 										class="link-inverse"
