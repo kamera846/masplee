@@ -12,12 +12,12 @@ I am a Mobile & Website Developer with more than three years of experience. My f
 Front-End Developer, Slicing Figma Design & API Consumption.
 
 ## Skill
-HTML | CSS | SASS | Javascript | Kotlin | PHP | Java | Dart
+Dart | Kotlin | Typescript | Javascript | PHP | Java | HTML | CSS | SASS
 
-Android Studio | Flutter | Nuxt Vue.Js | Laravel | Bootstrap | Tailwind | Alpine.Js | Livewire
+Flutter | Android Studio | Nuxt Vue.Js | Laravel | Tailwind | Bootstrap | Alpine.Js | Livewire
 
 ## Portfolio
-[https://masplee.netlify.app/portfolios](https://masplee.netlify.app/portfolios)
+[https://masplee.netlify.app](https://masplee.netlify.app)
 
 [https://github.com/kamera846](https://github.com/kamera846)
 

@@ -15,10 +15,10 @@
 							</div>
 							<div>
 								<h4 class="mb-0">{{ item?.name }}</h4>
-								<span
+								<!-- <span
 									class="badge bg-pale-green text-green rounded py-1"
 									>{{ item?.exp }}</span
-								>
+								> -->
 							</div>
 						</div>
 					</div>

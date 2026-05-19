@@ -1,9 +1,9 @@
 const FRAMEWORKS = [
     {
-        icon: "/assets/img/icons/nuxtjs.png",
-        name: "Nuxt Js",
-        value: "2 Year Experience",
-        color: "red"
+        icon: "/assets/img/icons/flutter.png",
+        name: "Flutter",
+        value: "1 Year Experience",
+        color: "purple"
     },
     {
         icon: "/assets/img/icons/android-studio.png",
@@ -12,22 +12,10 @@ const FRAMEWORKS = [
         color: "pink"
     },
     {
-        icon: "/assets/img/icons/bootstrap.png",
-        name: "Bootstrap",
+        icon: "/assets/img/icons/nuxtjs.png",
+        name: "Nuxt Js",
         value: "2 Year Experience",
-        color: "blue"
-    },
-    {
-        icon: "/assets/img/icons/flutter.png",
-        name: "Flutter",
-        value: "1 Year Experience",
-        color: "purple"
-    },
-    {
-        icon: "/assets/img/icons/laravel.png",
-        name: "Laravel",
-        value: "1 Year Experience",
-        color: "pink"
+        color: "red"
     },
     {
         icon: "/assets/img/icons/vuejs.png",
@@ -36,10 +24,22 @@ const FRAMEWORKS = [
         color: "yellow"
     },
     {
+        icon: "/assets/img/icons/laravel.png",
+        name: "Laravel",
+        value: "1 Year Experience",
+        color: "pink"
+    },
+    {
         icon: "/assets/img/icons/tailwind.png",
         name: "Tailwind",
         value: "1 Month Experience",
         color: "purple"
+    },
+    {
+        icon: "/assets/img/icons/bootstrap.png",
+        name: "Bootstrap",
+        value: "2 Year Experience",
+        color: "blue"
     },
     {
         icon: "/assets/img/icons/alpinejs.png",
@@ -57,25 +57,11 @@ const FRAMEWORKS = [
 
 const SKILLS = [
     {
-        icon: "/assets/img/icons/circle-html-5.png",
-        name: "HTML 5",
-        value: 90,
-        color: "red",
-        exp: "2 Year Experience"
-    },
-    {
-        icon: "/assets/img/icons/circle-css.png",
-        name: "CSS",
-        value: 80,
-        color: "blue",
-        exp: "2 Year Experience"
-    },
-    {
-        icon: "/assets/img/icons/square-javscript.png",
-        name: "Javascript",
-        value: 90,
-        color: "yellow",
-        exp: "2 Year Experience"
+        icon: "/assets/img/icons/square-dart.png",
+        name: "Dart",
+        value: 50,
+        color: "green",
+        exp: "1 Year Experience"
     },
     {
         icon: "/assets/img/icons/square-kotlin.png",
@@ -85,18 +71,18 @@ const SKILLS = [
         exp: "2 Year Experience"
     },
     {
-        icon: "/assets/img/icons/square-dart.png",
-        name: "Dart",
-        value: 50,
-        color: "green",
-        exp: "1 Year Experience"
+        icon: "/assets/img/icons/square-typescript.svg",
+        name: "Typescript",
+        value: 90,
+        color: "yellow",
+        exp: "2 Year Experience"
     },
     {
-        icon: "/assets/img/icons/circle-sass.png",
-        name: "Sass",
-        value: 80,
-        color: "pink",
-        exp: "1 Year Experience"
+        icon: "/assets/img/icons/square-javscript.png",
+        name: "Javascript",
+        value: 90,
+        color: "yellow",
+        exp: "2 Year Experience"
     },
     {
         icon: "/assets/img/icons/circle-php.png",
@@ -112,16 +98,46 @@ const SKILLS = [
         color: "red",
         exp: "1 Year Experience"
     },
+    {
+        icon: "/assets/img/icons/circle-html-5.png",
+        name: "HTML 5",
+        value: 90,
+        color: "red",
+        exp: "2 Year Experience"
+    },
+    {
+        icon: "/assets/img/icons/circle-css.png",
+        name: "CSS",
+        value: 80,
+        color: "blue",
+        exp: "2 Year Experience"
+    },
+    {
+        icon: "/assets/img/icons/circle-sass.png",
+        name: "Sass",
+        value: 80,
+        color: "pink",
+        exp: "1 Year Experience"
+    },
 ]
 
 const PORTFOLIO = [
+    {
+        cover: "/assets/img/portfolio/tkp-mockup.png",
+        previewCover: "/assets/img/portfolio/tkp-mockup-preview.png",
+        name: "Vensapp - TKP",
+        available: true,
+        tag: "Mobile | Android",
+        playstoreUrl: "https://play.google.com/store/apps/details?id=com.vensapp.tkp&pcampaignid=web_share",
+    },
     {
         cover: "/assets/img/portfolio/top-seller-mockup.png",
         previewCover: "/assets/img/portfolio/top-seller-mockup-preview.png",
         name: "Top Mortar Seller",
         available: true,
         tag: "Mobile | Android | Ios",
-        url: "",
+        appstoreUrl: "https://apps.apple.com/id/app/top-mortar-seller/id6744349825",
+        playstoreUrl: "https://play.google.com/store/apps/details?id=com.topmortar.topmortarseller&pcampaignid=web_share",
     },
     {
         cover: "/assets/img/portfolio/top-sales-mockup.png",
@@ -129,7 +145,7 @@ const PORTFOLIO = [
         name: "Top Mortar Sales",
         available: true,
         tag: "Mobile | Android",
-        url: "",
+        playstoreUrl: "https://play.google.com/store/apps/details?id=com.topmortar.topmortarsales&pcampaignid=web_share",
     },
     {
         cover: "/assets/img/portfolio/alkademi-dashboard-v2.png",
@@ -137,12 +153,11 @@ const PORTFOLIO = [
         name: "Alkademi Dashboard V2",
         available: true,
         tag: "Dashboard | Responsive",
-        url: "",
     },
     {
         cover: "/assets/img/portfolio/hanadolabs.png",
         name: "Hanadolabs",
-        available: true,
+        available: false,
         tag: "Landing Page | Responsive",
         url: "https://hanadolabs.id/",
     },
@@ -166,7 +181,6 @@ const PORTFOLIO = [
         name: "Alkademi Formulir Portal",
         available: true,
         tag: "Form | Responsive",
-        url: "",
     },
     {
         cover: "/assets/img/portfolio/dashboard-student-alkademi-v1-cover.png",
@@ -174,7 +188,6 @@ const PORTFOLIO = [
         name: "Alkademi Dashboard",
         available: true,
         tag: "Dashboard | Responsive",
-        url: "",
     },
     {
         cover: "/assets/img/portfolio/alkademi-auth-portal.png",
@@ -182,7 +195,6 @@ const PORTFOLIO = [
         name: "Alkademi Auth Portal",
         available: true,
         tag: "Auth | Responsive",
-        url: "",
     },
     {
         cover: "/assets/img/portfolio/alkademi.png",
